@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "store_name": "Deli & Liquor Market",
+  "zones": {
+    "Liquor": {
+      "front": {
+        "Aisle1": {
+          "Whiskey": ["ShelfF1", "ShelfF2"],
+          "Vodka": ["ShelfF1"],
+          "Rum": ["ShelfF1"]
+        },
+        "Aisle2": {
+          "Tequila": ["ShelfF1"],
+          "Gin": ["ShelfF1"]
+        }
+      },
+      "back": {
+        "Bay1": {
+          "Whiskey": ["ShelfB1", "ShelfB2"],
+          "Vodka": ["ShelfB1"]
+        },
+        "Bay2": {
+          "Tequila": ["ShelfB1"],
+          "Gin": ["ShelfB1"]
+        }
+      }
+    },
+    "Beer": {
+      "front": {
+        "Cooler1": {
+          "Craft Beer": ["Row1", "Row2"],
+          "Imported Beer": ["Row3"],
+          "Domestic Beer": ["Row4"]
+        }
+      },
+      "back": {
+        "Bay3": {
+          "Craft Beer": ["ShelfB1"],
+          "Imported Beer": ["ShelfB2"],
+          "Domestic Beer": ["ShelfB3"]
+        }
+      }
+    },
+    "Snacks": {
+      "front": {
+        "Aisle3": {
+          "Chips": ["ShelfF1"],
+          "Cookies": ["ShelfF1"],
+          "Candy": ["ShelfF2"]
+        }
+      },
+      "back": {
+        "Bay4": {
+          "Chips": ["ShelfB1"],
+          "Cookies": ["ShelfB1"],
+          "Candy": ["ShelfB2"]
+        }
+      }
+    }
+  }
+}
+
